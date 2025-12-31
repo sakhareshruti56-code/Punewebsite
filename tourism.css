@@ -1,0 +1,23 @@
+.navbar {
+display: flex;
+align-items: center;
+background-color: #333;
+flex-wrap:wrap;
+}
+.navbar a
+{
+display: flex;
+flex-wrap:wrap;
+color: white;
+margin-left: 20px;
+padding: 8px 12px;
+border-radius: 5px;
+}
+img{
+max-width:100%;
+}
+@media screen and (max-width: 600px) {
+ 
+  body {
+    background-color: lightblue;
+  }
